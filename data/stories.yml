@@ -2,29 +2,32 @@ version: "3.1"
 
 stories:
 
-- story: happy path
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
 
-- story: sad path 1
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
+    - story: Saudar
+      steps:
+         - intent: saudar
+         - action: utter_saudar
 
-- story: sad path 2
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+
+    - story: Perguntar questão1
+      steps:
+          - intent: perguntar_questao1
+          - action: utter_perguntar_questao1
+
+
+    - story: Perguntar questão2
+      steps:
+          - intent: perguntar_questao2
+          - action: utter_perguntar_questao2
+
+
+    - story: Perguntar questão2
+      steps:
+         - intent: perguntar_questao3
+         - action: utter_perguntar_questao3
+
+
+
+
+
+

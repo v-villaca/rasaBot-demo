@@ -1,91 +1,64 @@
 version: "3.1"
 
 nlu:
-- intent: greet
+- intent: saudar
   examples: |
-    - hey
-    - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
+    - oi
+    - Oi
+    - Olá
+    - Ola
+    - eae
+    - iaew
+    - baum
+    - fala tu
+    - e ai mano
+    - eai mano
+    - iai mano
+    - coe
+    - Boa noite
+    - Boa tarde
+    - Bom dia
+    - tudo bem?
+    - tudo bom?
+    - suave?
+    - safe?
+    - oi, bom dia
+    - oi, boa noite
+    - oi, boa tarde
+    
 
-- intent: goodbye
+- intent: perguntar_questao1
   examples: |
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
+    - Qual o diferencial do TIC em trilhas em relação às outras plataformas de ensino?
+    - O que faz o TIC ser melhor em trilhas do que as outras plataformas de ensino?
+    - Qual é o lance que o TIC tem nas trilhas que as outras plataformas não têm?
+    - O que é que o TIC manda bem nas trilhas que outras plataformas não conseguem?
+    - Por que o TIC arrasa nas trilhas comparado com outras plataformas de ensino?
+    - Qual é o diferencial do TIC nas trilhas que as outras plataformas não têm?
 
-- intent: affirm
-  examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
 
-- intent: deny
-  examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
 
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
 
-- intent: mood_unhappy
+- intent: perguntar_questao2
   examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+    - As trilhas possuem certificado de conclusão?
+    - As trilhas dão algum certificado no final?
+    - Quando a gente termina uma trilha, vem um certificado junto?
+    - Tem algum diploma ou certificado depois que acaba a trilha?
+    - Vai rolar um certificado de conclusão ao final da trilha?
+    - Quando a gente termina a trilha, ganhamos algum certificado ou algo assim?
 
-- intent: bot_challenge
+
+
+
+
+- intent: perguntar_questao3
   examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - Posso cursar mais de uma trilha ao mesmo tempo?
+    - Dá pra fazer mais de uma trilha de uma vez só?
+    - É possível tocar várias trilhas ao mesmo tempo?
+    - Posso emendar várias trilhas simultaneamente?
+    - E aí, rola fazer mais de uma trilha ao mesmo tempo?
+    - Tem como encarar mais de uma trilha ao mesmo tempo?
+
+

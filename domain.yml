@@ -1,33 +1,33 @@
 version: "3.1"
 
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
+  - saudar
+  - perguntar_questao1
+  - perguntar_questao2
+  - perguntar_questao3
+
+     
 
 responses:
-  utter_greet:
-  - text: "Hey! How are you?"
+  utter_saudar:
+  - text: "E ae, seja bem vindo, ainda sou novo por aqui mas acho que posso te ajudar, lança a braba!"
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+  utter_perguntar_questao1:
+  - text: "Além de 100% gratuitas, as trilhas contam com conteúdos produzidos por instituições renomadas, aplicando metodologias ativas de aprendizagem e com apoio de mentores e monitores especializados. Além disso, o programa foi pensado para promover capacitações em áreas da tecnologia com base nas vagas existentes no mercado para você garantir sua empregabilidade.​"
 
-  utter_did_that_help:
-  - text: "Did that help you?"
+  utter_perguntar_questao2:
+  - text: "Sim, você receberá um badge a cada módulo concluído e, ao concluir todos os módulos da trilha, um certificado de conclusão correspondente a carga horária total."
 
-  utter_happy:
-  - text: "Great, carry on!"
+  utter_perguntar_questao3:
+  - text: "Sim, é possível cursar mais de uma trilha ao mesmo tempo. Você poderá se inscrever em quantas trilhas desejar. É importante atentar-se, no caso de trilhas com aulas ao vivo, que esses horários não coincidam."
 
-  utter_goodbye:
-  - text: "Bye"
 
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+actions:
+- utter_saudar
+- utter_perguntar_questao1
+- utter_perguntar_questao2
+- utter_perguntar_questao3
+
 
 session_config:
   session_expiration_time: 60

@@ -2,12 +2,24 @@ version: "3.1"
 
 rules:
 
-- rule: Say goodbye anytime the user says goodbye
-  steps:
-  - intent: goodbye
-  - action: utter_goodbye
+    - rule: Saudar o usuário de volta
+      steps:
+      - intent: saudar
+      - action: utter_saudar
 
-- rule: Say 'I am a bot' anytime the user challenges
-  steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
+    - rule: Responder pergunta do usuário1
+      steps:
+      - intent: perguntar_questao1
+      - action: utter_perguntar_questao1
+
+
+    - rule: Responder pergunta do usuário2
+      steps:
+      - intent: perguntar_questao2
+      - action: utter_perguntar_questao2
+
+
+    - rule: Responder pergunta do usuário3
+      steps:
+      - intent: perguntar_questao3
+      - action: utter_perguntar_questao3
